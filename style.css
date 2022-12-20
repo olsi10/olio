@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+:root {
+    --main-color : #78553D;
+    --sub-color : #F2EDD7;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--sub-color);
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    font-family: 'Gugi', cursive;
+    color: var(--main-color);
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+p.sub-title {
+    font-size: 20px;
+}
